@@ -20,3 +20,5 @@ RUN pip3 freeze
 
 EXPOSE 22
 EXPOSE 8000
+
+CMD ["python3", "/app/main.py"]
